@@ -21,7 +21,7 @@ end
 def monopoly_with_third_tier
 	{
 		railroads: {
-			rent_in_dollars: {},
+			rent_in_dollars: {owner1: "", owner2: "", owner3: "", owner4: ""},
 			pieces: 4
 		}
 	}
